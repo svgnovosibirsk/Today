@@ -8,7 +8,8 @@
 import UIKit
 
 extension ReminderViewController {
-    func defaultConfiguration(for cell: UICollectionViewListCell, at row: Row) -> UIListContentConfiguration {
+    func defaultConfiguration(for cell: UICollectionViewListCell,
+                              at row: Row) -> UIListContentConfiguration {
         var contentConfiguration = cell.defaultContentConfiguration()
         contentConfiguration.text = text(for: row)
         contentConfiguration.textProperties.font = UIFont.preferredFont(forTextStyle: row.textStyle)
@@ -16,8 +17,16 @@ extension ReminderViewController {
         return contentConfiguration
     }
     
-    func headerConfiguration(for cell: UICollectionViewListCell, with title: String) -> UIListContentConfiguration {
+    func headerConfiguration(for cell: UICollectionViewListCell,
+                             with title: String) -> UIListContentConfiguration {
         var contentConfiguration = cell.defaultContentConfiguration()
+        contentConfiguration.text = title
+        return contentConfiguration
+    }
+    
+    func titleConfiguration(for cell: UICollectionViewListCell,
+                            with title: String?) -> TextFieldContentView.Configuration {
+        var contentConfiguration = cell.textFieldConfiguration()
         contentConfiguration.text = title
         return contentConfiguration
     }
