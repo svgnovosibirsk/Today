@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		7CC6CD8F2B033FED008382AE /* ProgressHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC6CD8E2B033FED008382AE /* ProgressHeaderView.swift */; };
 		7CC6CDA42B048177008382AE /* CAGradientLayer+ListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC6CDA32B048177008382AE /* CAGradientLayer+ListStyle.swift */; };
+		7CC6CDB92B05CF1D008382AE /* TodayError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC6CDB82B05CF1D008382AE /* TodayError.swift */; };
+		7CC6CDBB2B05CFD5008382AE /* EKEventStore+AsyncFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC6CDBA2B05CFD5008382AE /* EKEventStore+AsyncFetch.swift */; };
 		7CCB91652AF7578B00182C23 /* ReminderDoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB91642AF7578B00182C23 /* ReminderDoneButton.swift */; };
 		7CCB91672AF758DE00182C23 /* ReminderListViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB91662AF758DE00182C23 /* ReminderListViewController+Actions.swift */; };
 		7CCB917C2AF8A1E000182C23 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCB917B2AF8A1E000182C23 /* ReminderViewController.swift */; };
@@ -36,6 +38,8 @@
 /* Begin PBXFileReference section */
 		7CC6CD8E2B033FED008382AE /* ProgressHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHeaderView.swift; sourceTree = "<group>"; };
 		7CC6CDA32B048177008382AE /* CAGradientLayer+ListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+ListStyle.swift"; sourceTree = "<group>"; };
+		7CC6CDB82B05CF1D008382AE /* TodayError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayError.swift; sourceTree = "<group>"; };
+		7CC6CDBA2B05CFD5008382AE /* EKEventStore+AsyncFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EKEventStore+AsyncFetch.swift"; sourceTree = "<group>"; };
 		7CCB91642AF7578B00182C23 /* ReminderDoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDoneButton.swift; sourceTree = "<group>"; };
 		7CCB91662AF758DE00182C23 /* ReminderListViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+Actions.swift"; sourceTree = "<group>"; };
 		7CCB917B2AF8A1E000182C23 /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +141,8 @@
 				7CCDB0E22AF6317A00694FD2 /* UIColor+Today.swift */,
 				7CCB91C82B01DAC200182C23 /* ReminderListStyle.swift */,
 				7CC6CDA32B048177008382AE /* CAGradientLayer+ListStyle.swift */,
+				7CC6CDB82B05CF1D008382AE /* TodayError.swift */,
+				7CC6CDBA2B05CFD5008382AE /* EKEventStore+AsyncFetch.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 				7CCB918E2AFCB5CA00182C23 /* DatePickerContentView.swift in Sources */,
 				7CCDB0E32AF6317A00694FD2 /* UIColor+Today.swift in Sources */,
 				7CCB91672AF758DE00182C23 /* ReminderListViewController+Actions.swift in Sources */,
+				7CC6CDB92B05CF1D008382AE /* TodayError.swift in Sources */,
 				7CCB91C92B01DAC200182C23 /* ReminderListStyle.swift in Sources */,
 				7CCB917C2AF8A1E000182C23 /* ReminderViewController.swift in Sources */,
 				7CCB918A2AFC99DA00182C23 /* UIContentConfiguration+Stateless.swift in Sources */,
@@ -242,6 +249,7 @@
 				7CCDB0C72AF519B700694FD2 /* AppDelegate.swift in Sources */,
 				7CCB91832AFC8EC500182C23 /* ReminderViewController+CellConfiguration.swift in Sources */,
 				7CCDB0C92AF519B700694FD2 /* SceneDelegate.swift in Sources */,
+				7CC6CDBB2B05CFD5008382AE /* EKEventStore+AsyncFetch.swift in Sources */,
 				7CCDB0DC2AF51F2E00694FD2 /* Reminder.swift in Sources */,
 				7CC6CDA42B048177008382AE /* CAGradientLayer+ListStyle.swift in Sources */,
 				7CCDB0E12AF62B5A00694FD2 /* ReminderListViewController+DataSource.swift in Sources */,
